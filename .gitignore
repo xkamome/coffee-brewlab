@@ -1,6 +1,5 @@
 # 建置產物（node build.js 會重新產生；dist 是內嵌版，拿去發布用）
 dist/
-# Blender 存檔與檢查圖（blender/brewers.py 會重新產生）
-*.blend
+# Blender 自動備份檔與檢查圖（brewers.blend 本身有上傳，可直接用 Blender 開）
 *.blend1
 blender/sheet.png

@@ -29,6 +29,8 @@ blender -b --factory-startup -P blender/brewers.py -- --render --export --sheet
 - `--sheet`：輸出總覽檢查圖 `blender/sheet.png`
 - `--only cone,chemex`：只處理指定器具
 
+`blender/brewers.blend` 是腳本產生的場景檔，可以直接用 Blender 打開查看或手動修改（重新執行腳本會覆蓋）。
+
 目前有 3D 模型的器具：V60（cone）、Chemex、虹吸壺（siphon）。
 
 ## 檔案
